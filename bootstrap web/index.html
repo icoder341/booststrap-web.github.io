@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light p-1 sticky-sm-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler bg-light shadow-none " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light" target="_blank" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link  text-light" target="_blank" href="course.html" >
+            Course
+            </a>
+          </div>
+          <button type="button" id="btn3" class="btn btn-warning shadow-none" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
+        </div>
+  </nav>
+<!-- signup Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signupModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control shadow-none" id="inputEmail3">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control shadow-none" id="inputPassword3">
+            </div>
+          </div>
+          <fieldset class="row mb-3">
+            <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input shadow-none" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  Male 
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input shadow-none" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                Female
+                </label>
+              </div>
+            </div>
+          </fieldset>
+          <div class="row mb-3">
+            <div class="col-sm-10 offset-sm-2">
+              <div class="form-check">
+                <input class="form-check-input shadow-none" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                  Plus memmber
+                </label>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary shadow-none">Sign in</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row flex-lg-row-reverse align-items-center py-5 mx-0">
+  <div class="col-10 col-sm-8 col-lg-5">
+    <img src="img/img.8.png" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+  </div>
+  <div class="col-lg-6">
+    <h1 class="display-5 fw-bold lh-1 mb-3">The best website for learn coding and programming</h1>
+    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+      <button type="button" id="btn1" class="btn text-light shadow-none btn-lg px-4 me-md-2">Explore</button>
+      <button type="button" id="btn2" class="btn btn-lg bg-warning shadow-none text-light px-4">Get Plus</button>
+    </div>
+  </div>
+</div>
+<div class="container py-5" id="hanging-icons">
+  <h2 class="pb-2 border-bottom text-center">Course</h2>
+  <div class="row g-5 py-5">
+    <div class="col-md-4 d-flex align-items-start">
+      <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+      <img src="img/img.2.jfif" class="bi" width="80px" alt="">  
+      </div>
+      <div>
+        <h2>Web Development</h2>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#" class="btn btn-primary shadow-none">
+         more
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4 d-flex align-items-start">
+      <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+        <img src="img/img.3.jpg" class="bi" width="75px" alt="">  
+      </div>
+      <div>
+        <h2>Anriod Development</h2>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#" class="btn btn-primary shadow-none">
+      more
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4 d-flex align-items-start">
+      <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+        <img src="img/img.4.png" class="bi" width="75px" alt="">  
+      </div>
+      <div>
+        <h2>PHP</h2>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#" class="btn btn-primary shadow-none">
+          more
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container py-5" id="hanging-icons">
+  <div class="row g-5 py-5">
+    <div class="col-md-4 d-flex align-items-start">
+      <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+        <img src="img/img.5.png" class="bi" width="75px" alt="">  
+      </div>
+      <div>
+        <h2>Python</h2>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#" class="btn btn-primary shadow-none">
+          more
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4 d-flex align-items-start">
+      <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+        <img src="img/img.6.png" class="bi" width="50px" alt="">  
+      </div>
+      <div>
+        <h2>C++</h2>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#" class="btn btn-primary shadow-none">
+more
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4 d-flex align-items-start">
+      <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+     <img src="img/img.9.jpg"class="bi" width="75px" alt="">
+      </div>
+      <div>
+        <h2>SQL</h2>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#" class="btn btn-primary shadow-none">
+          more
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<h3 class="text-center">Contact Us</h3>
+<hr class="w-75 mx-auto">
+<div class="contact mx-auto bg-light my-4 rounded px-4 py-3 w-75 ">
+  <div class="row g-3">
+    <div class="col shadow-none">
+      <input type="text" class="form-control shadow-none" placeholder="First name" aria-label="First name">
+    </div>
+    <div class="col shadow-none">
+      <input type="text" class="form-control shadow-none" placeholder="Last name" aria-label="Last name">
+    </div>
+    <form class="row g-3">
+      <div class="col-md-6 shadow-none">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control shadow-none" id="inputEmail4">
+      </div>
+      <div class="col-md-6 shadow-none">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control shadow-none" id="inputPassword4">
+      </div>
+      <div class="col-12 shadow-none">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input type="text" class="form-control shadow-none" id="inputAddress" placeholder="1234 Main Stand">
+      </div>
+      <div class="col-12 shadow-none">
+        <label for="inputAddress2" class="form-label">Message</label>
+        <input type="text" class="form-control shadow-none" id="inputAddress2" placeholder="hello">
+      </div>
+      <div class="col-md-6 shadow-none">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control shadow-none" id="inputCity">
+      </div>
+      <div class="col-md-4 shadow-none">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select shadow-none">
+          <option selected>---Select your state---</option>
+          <option>Maharashtra</option>
+          <option>Karnatak</option>
+          <option>Rajsthan</option>
+          <option>Goa</option>
+          <option>Delhi</option>
+          <option>Gujarat</option>
+        </select>
+      </div>
+      <div class="col-md-2 shadow-none">
+        <label for="inputZip" class="form-label">Pincode</label>
+        <input type="text" class="form-control shadow-none" id="inputZip">
+      </div>
+      <div class="col-12 ">
+        <div class="form-check">
+          <input class="form-check-input shadow-none" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+         Plus member
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary shadow-none">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+<h3 class="text-center">About Us</h3>
+<hr class="w-75 mx-auto">
+<div class="about ">
+  <img src="img/logo111.png" class="img-fluid rounded mx-auto d-block" alt="this is logo">
+  <p class=" text-center mx-auto w-50">
+    Bootstrap is maintained by a small team of developers on GitHub. We’re actively looking to grow this team and would love to hear from you if you’re excited about CSS at scale, writing and maintaining vanilla JavaScript plugins, and improving build tooling processes for frontend code.
+  <h4 class=" text-center mx-auto w-50">History</h4>
+  </p>
+  <p class=" text-center mx-auto w-50">
+    Originally created by a designer and a developer at Twitter, Bootstrap has become one of the most popular front-end frameworks and open source projects in the world.
+  </p>
+  <p class=" text-center mx-auto w-50">
+Bootstrap was created at Twitter in mid-2010 by @mdo and @fat. Prior to being an open-sourced framework, Bootstrap was known as Twitter Blueprint. A few months into development, Twitter held its first Hack Week and the project exploded as developers of all skill levels jumped in without any external guidance
+  </p>
+</div>
+    <div class=" text-center mx-auto w-100 py-4  rounded" id="main1">  
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a> 
+        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>
+    </div>
+<footer class="text-muted py-3 bg-dark">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#"  style="text-decoration: none; color: white;">Back to top</a>
+    </p>
+    <p class="mb-1">© 2020-2021 Info Tech,Inc </p>
+    <p class="mb-0"><a href="#" target="_blank" style="text-decoration: none; color: white; margin-right: 15px;">Terms And Condition</a>
+    <a href="#" target="_blank" style="text-decoration: none; color: white;  margin-right: 15px;">privacy And Policy</a>
+    <a href="about.html" target="_blank" style="text-decoration: none; color: white;  margin-right: 15px;">About Us</a></p>
+</div>
+</footer>                          
+                           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>

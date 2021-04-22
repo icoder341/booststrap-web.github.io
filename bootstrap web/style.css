@@ -1,0 +1,51 @@
+#course{
+    color:black;
+    text-align: center;
+    background-image: linear-gradient(to right,red,orange);
+    margin-top: 8px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+ background-color: orangered;
+}
+#btn1{
+  background-color: rebeccapurple;
+}
+#btn3{
+  color: white;
+  border: none;
+  background-color: orange;
+  padding: 3px 3px;
+}
+.fa-facebook-square{
+  color: black;
+  background-color: cyan;
+  padding:6px ;
+  width: 10%;
+  margin-right: 2px;
+}
+.fa-youtube{
+  color: black;
+  background-color: red;
+  padding:6px ;
+  width: 10%;
+  margin-right: 2px;
+}
+.fa-twitter-square{
+  color: black;
+  background-color: aquamarine;
+  padding:6px ;
+  width: 10%;
+  margin-right: 2px;
+}
+.fa-instagram-square{
+  color: black;
+  background-color: tomato;
+  width: 10%;
+  padding:6px ;
+  margin-right: 2px;
+}
+#logo{
+  height: 40px;
+}
